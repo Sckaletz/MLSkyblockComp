@@ -1,0 +1,66 @@
+# Admin permissions: mlskyblockcomp.admin
+# Command permissions: /competition <info|standings|reload|help>
+
+# General settings
+requireMinimumPlayers: true  # Set to false to disable the requirement of 5 players online to start a competition
+timezone: "CET"  # Set the timezone for competition scheduling (e.g., "UTC", "CET", "America/New_York")
+
+# Competition time settings - adjust the start and end times as needed
+competitionPeriods:
+  - "00.00 - 00.05"
+  - "01.00 - 01.05"
+  - "02.00 - 02.05"
+  - "03.00 - 03.05"
+  - "04.00 - 04.05"
+  - "05.00 - 05.05"
+  - "06.00 - 06.05"
+  - "07.00 - 07.05"
+  - "08.00 - 08.05"
+  - "09.00 - 09.05"
+  - "10.00 - 10.05"
+  - "11.00 - 11.05"
+  - "12.00 - 12.05"
+  - "13.00 - 13.05"
+  - "14.00 - 14.05"
+  - "15.00 - 15.05"
+  - "16.00 - 16.05"
+  - "17.00 - 17.05"
+  - "18.00 - 18.05"
+  - "19.00 - 19.05"
+  - "20.00 - 20.05"
+  - "21.00 - 21.05"
+  - "22.00 - 22.05"
+  - "23.00 - 23.05"
+
+# Rewards for the competition - add your own rewards here
+Wheat:
+  "1":
+    command: "eco give %NAME% 100000"
+    message: "&c&lREWARD! &7You received: &c100000&7!"
+  "2":
+    command: "crate give to %player% rare 5"
+    message: "&c&lREWARD! &7You received: &c5 Rare Keys&7!"
+
+Nether_Wart:
+  "1":
+    command: "eco give %NAME% 100000"
+    message: "&c&lREWARD! &7You received: &c100000&7!"
+  "2":
+    command: "crate give to %player% rare 5"
+    message: "&c&lREWARD! &7You received: &c5 Rare Keys&7!"
+
+Potato:
+  "1":
+    command: "eco give %NAME% 100000"
+    message: "&c&lREWARD! &7You received: &c100000&7!"
+  "2":
+    command: "crate give to %player% rare 5"
+    message: "&c&lREWARD! &7You received: &c5 Rare Keys&7!"
+
+Carrot:
+  "1":
+    command: "eco give %NAME% 100000"
+    message: "&c&lREWARD! &7You received: &c100000&7!"
+  "2":
+    command: "crate give to %player% rare 5"
+    message: "&c&lREWARD! &7You received: &c5 Rare Keys&7!"

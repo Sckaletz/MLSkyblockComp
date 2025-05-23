@@ -1,0 +1,17 @@
+name: MLSkyblockComp
+version: '1.0'
+main: eu.minelife.mLSkyblockComp.MLSkyblockComp
+api-version: '1.21'
+description: A farming competition plugin for Skyblock servers
+authors: [MineLife]
+
+commands:
+  competition:
+    description: Main command for the farming competition plugin
+    usage: /competition <info|standings|reload|help>
+    aliases: [comp, fc]
+
+permissions:
+  mlskyblockcomp.admin:
+    description: Allows access to administrative commands
+    default: op

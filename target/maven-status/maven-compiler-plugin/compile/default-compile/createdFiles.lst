@@ -1,0 +1,5 @@
+eu\minelife\mLSkyblockComp\models\Competition.class
+eu\minelife\mLSkyblockComp\commands\CompetitionCommand.class
+eu\minelife\mLSkyblockComp\managers\CompetitionManager.class
+eu\minelife\mLSkyblockComp\listeners\FarmingListener.class
+eu\minelife\mLSkyblockComp\MLSkyblockComp.class
